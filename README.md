@@ -6,7 +6,7 @@ Owing to its versatile functionalities, [netcat](https://en.wikipedia.org/wiki/N
 	# nc -l 3003	
 This means a `netcat` process will listen on `3003` port in this machine (the `IP` address of current machine is `192.168.35.176`).  
 
-(2) Connect aforemontioned `netcat` process in another machine, and send a greeting:  
+(2) Connect aforementioned `netcat` process on another machine, and send a greeting:  
 
 	# nc 192.168.35.176 3003
 	hello
